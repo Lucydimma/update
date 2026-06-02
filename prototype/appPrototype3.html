@@ -1,0 +1,313 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="appPrototype3.css">
+</head>
+
+<body>
+  <div class="app">
+    <!-- dashbar -->
+    <aside class="dashbar">
+      <div class="dashbar-header">
+        <div class="logo">
+          <!-- <div class="logo-dot"></div>
+          lendsqr -->
+           <div>
+          <img src="logo.png" alt="">
+        </div>
+        </div>
+      </div>
+
+      <div class="dashbar-section">
+        <img src="briefcase 1.png" class="brief" alt="">
+        <a href="#" class="dashbar-item">Switch Organization ▼</a>
+      </div>
+
+      <div class="dashbar-section">
+        <img src="home 1.png" alt="">
+        <a href="#" class="sidebar-item">Dashboard</a>
+      </div>
+
+      <div class="dashbar-section">
+        <div class="dashbar-title">CUSTOMERS</div>
+        <div>
+          <a href="#" class="dashbar-item active">Users</a>
+          <img src="user-friends 1.png" alt="">
+        </div>
+        <div>
+          <a href="#" class="dashbar-item">Guarantors</a>
+          <img src="users 1.png" alt="">
+        </div>
+        <div>
+          <a href="#" class="dashbar-item">Loans</a>
+          <img src="sack 1.png" alt="">
+        </div>
+        <div>
+          <a href="#" class="dashbar-item">Decision Models</a>
+          <img src="handshake-regular 1.png" alt="">
+        </div>
+        <div>
+          <a href="#" class="dashbar-item">Savings</a>
+          <img src="piggy-bank 1.png" alt="">
+        </div>
+        <div>
+          <a href="#" class="dashbar-item">Loan Requests</a>
+          <img src="Group 104.png" alt="">
+        </div>
+        <div>
+          <a href="#" class="dashbar-item">Whitelist</a>
+          <img src="user-check 1.png" alt="">
+        </div>
+        <div>
+          <a href="#" class="dashbar-item">Karma</a>
+          <img src="user-times 1.png" alt="">
+        </div>
+
+
+      </div>
+
+      <div class="dashbar-section">
+        <div class="dashbar-title">BUSINESSES</div>
+        <div>
+          <a href="#" class="dashbar-item">Organization</a>
+          <img src="briefcase 1.png" alt="">
+        </div>
+        <div>
+          <a href="#" class="dashbar-item">Loan Products</a>
+          <img src="Group 104.png" alt="">
+        </div>
+        <div>
+          <a href="#" class="dashbar-item">Savings Products</a>
+          <img src="np_bank_148501_000000 1.png" alt="">
+        </div>
+        <div>
+          <a href="#" class="dashbar-item">Fees and Charges</a>
+          <img src="coins-solid 1.png" alt="">
+        </div>
+        <div>
+          <a href="#" class="dashbar-item">Transactions</a>
+          <img src="icon.png" alt="">
+        </div>
+        <div>
+          <a href="#" class="dashbar-item">Services</a>
+          <img src="galaxy 1.png" alt="">
+        </div>
+        <div>
+          <a href="#" class="dashbaritem">Service Account</a>
+          <img src="user-cog 1.png" alt="">
+        </div>
+        <div>
+          <a href="#" class="dashbar-item">Settlements</a>
+          <img src="scroll 1.png" alt="">
+        </div>
+        <div>
+          <a href="#" class="dashbar-item">Reports</a>
+          <img src="chart-bar 2.png" alt="">
+        </div>
+      </div>
+
+      <div class="dashbar-section">
+        <div class="dashbar-title">SETTINGS</div>
+        <div>
+          <a href="#" class="dashbar-item">Preferences</a>
+          <img src="sliders-h 1.png" alt="">
+        </div>
+        <div>
+          <a href="#" class="dashbar-item">Fees and Pricing</a>
+          <img src="badge-percent 1.png" alt="">
+        </div>
+        <div>
+          <a href="#" class="dashbar-item">Audit Logs</a>
+          <img src="clipboard-list 1.png" alt="">
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <div class="main">
+      <!-- Header -->
+      <header class="header">
+         <!-- <div>
+          <img src="logo.png" alt="">
+        </div> -->
+        <div class="search-box">
+          <input type="text" placeholder="Search for anything">
+          <button>🔍</button>
+        </div>
+
+        <div class="header-right">
+          <a href="#">Docs</a>
+          <span style="font-size: 18px;">🔔</span>
+          <div class="user-profile">
+            <img src="image 4.png" alt="User">
+            <span>Adedeji ▼</span>
+          </div>
+        </div>
+      </header>
+
+      <!-- Page Content -->
+      <div class="content">
+        <h1 class="page-title">Users</h1>
+
+        <!-- Stats Cards -->
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-icon" style="background: var(--pink-bg);">👥</div>
+            <div class="stat-label">Users</div>
+            <div class="stat-value">2,453</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon" style="background: var(--purple-bg);">👥</div>
+            <div class="stat-label">Active Users</div>
+            <div class="stat-value">2,453</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon" style="background: var(--red-bg);">📄</div>
+            <div class="stat-label">Users with Loans</div>
+            <div class="stat-value">12,453</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon" style="background: var(--red-bg);">💰</div>
+            <div class="stat-label">Users with Savings</div>
+            <div class="stat-value">102,453</div>
+          </div>
+        </div>
+
+        <!-- Users Table -->
+        <div class="table-card" style="position: relative;">
+          <table>
+            <thead>
+              <tr>
+                <th>Organization <span class="filter-icon" onclick="toggleFilter()">▼</span></th>
+                <th>Username <span class="filter-icon">▼</span></th>
+                <th>Email <span class="filter-icon">▼</span></th>
+                <th>Phone Number <span class="filter-icon">▼</span></th>
+                <th>Date Joined <span class="filter-icon">▼</span></th>
+                <th>Status <span class="filter-icon">▼</span></th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody onclick="window.location='appPrototype4.html'">
+              <tr>
+                <td>Lendsqr</td>
+                <td>Adedeji</td>
+                <td>adedeji@lendsqr.com</td>
+                <td>08078903721</td>
+                <td>May 15, 2020 10:00 AM</td>
+                <td><span class="status inactive">Inactive</span></td>
+                <td class="action-menu">⋮</td>
+              </tr>
+              <tr>
+                <td>Irorun</td>
+                <td>Debby Ogana</td>
+                <td>debby2@irorun.com</td>
+                <td>08160780928</td>
+                <td>Apr 30, 2020 10:00 AM</td>
+                <td><span class="status pending">Pending</span></td>
+                <td class="action-menu">⋮</td>
+              </tr>
+              <tr>
+                <td>Lendstar</td>
+                <td>Grace Effiom</td>
+                <td>grace@lendstar.com</td>
+                <td>07060780922</td>
+                <td>Apr 30, 2020 10:00 AM</td>
+                <td><span class="status blacklisted">Blacklisted</span></td>
+                <td class="action-menu" onclick="toggleAction(this)">
+                  ⋮
+                  <div class="action-dropdown">
+                    <a href="#">👁 View Details</a>
+                    <a href="#">🚫 Blacklist User</a>
+                    <a href="#">✅ Activate User</a>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>Lendsqr</td>
+                <td>Tosin Dokunmu</td>
+                <td>tosin@lendsqr.com</td>
+                <td>0703309226</td>
+                <td>Apr 10, 2020 10:00 AM</td>
+                <td><span class="status pending">Pending</span></td>
+                <td class="action-menu">⋮</td>
+              </tr>
+              <tr>
+                <td>Lendstar</td>
+                <td>Grace Effiom</td>
+                <td>grace@lendstar.com</td>
+                <td>07060780922</td>
+                <td>Apr 30, 2020 10:00 AM</td>
+                <td><span class="status active">Active</span></td>
+                <td class="action-menu">⋮</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- Filter Dropdown -->
+          <div class="filter-dropdown" id="filterDropdown">
+            <div class="filter-group">
+              <label>Organization</label>
+              <select>
+                <option>Select</option>
+              </select>
+            </div>
+            <div class="filter-group">
+              <label>Username</label>
+              <input type="text" placeholder="User">
+            </div>
+            <div class="filter-group">
+              <label>Email</label>
+              <input type="email" placeholder="Email">
+            </div>
+            <div class="filter-group">
+              <label>Date</label>
+              <input type="date" placeholder="Date">
+            </div>
+            <div class="filter-group">
+              <label>Phone Number</label>
+              <input type="text" placeholder="Phone Number">
+            </div>
+            <div class="filter-group">
+              <label>Status</label>
+              <select>
+                <option>Select</option>
+              </select>
+            </div>
+            <div class="filter-actions">
+              <button class="btn btn-reset">Reset</button>
+              <button class="btn btn-filter">Filter</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function toggleFilter() {
+      document.getElementById('filterDropdown').classList.toggle('show');
+    }
+
+    function toggleAction(el) {
+      el.querySelector('.action-dropdown').classList.toggle('show');
+    }
+
+    // Close dropdowns when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('.action-menu')) {
+        document.querySelectorAll('.action-dropdown').forEach(d => d.classList.remove('show'));
+      }
+      if (!e.target.closest('.filter-icon') && !e.target.closest('.filter-dropdown')) {
+        document.getElementById('filterDropdown').classList.remove('show');
+      }
+    });
+  </script>
+
+  <nav>
+    <a href=""></a>
+  </nav>
+</body>
+</html>

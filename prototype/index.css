@@ -1,0 +1,147 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+  }
+
+  .landing-page {
+    display: flex;
+    width: 1440px;
+    height: 900px;
+    /* height: 600px; */
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    overflow: hidden;
+  }
+
+  .left-side, .right-side {
+    flex: 1;
+    padding: 60px 50px;
+  }
+
+  .left-side {
+    border-right: 1px solid #f0f0f0;
+  }
+
+  .logo {
+    width: 173.76px;
+    height: 36px;
+    top: 106px;
+    left: 97px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    border-radius: 4px;
+    margin-right: 8px;
+  }  
+
+  .illustration {
+    width: 600px;
+    height: 337.57px;
+    top: 281px;
+    left: 67px;
+  }
+
+  .Welcome-sign {
+    font-size: 32px;
+    font-weight: 700;
+    color: #213F7D;
+    margin-bottom: 8px;
+  } 
+
+  .welcome-ph {
+    font-size: 14px;
+    color: #545F7D;
+    margin-bottom: 40px;
+  }
+
+  .form-group {
+    margin-bottom: 24px;
+  }
+
+  .form-input {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid #E5E8EC;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #545F7D;
+    outline: none;
+    transition: border 0.2s;
+  }
+
+  .form-input:focus {
+    border-color: #39CDCC;
+  }
+
+  .form-input::placeholder {
+    color: #A9B0C0;
+  }
+
+  .password-detail {
+    position: relative;
+  }
+
+  .show-btn {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #39CDCC;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 1px;
+  }
+
+  .forgot-password {
+    display: inline-block;
+    font-size: 12px;
+    color: #39CDCC;
+    font-weight: 600;
+    text-decoration: none;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+  }
+
+  .login-btn {
+    width: 100%;
+    padding: 14px;
+    background: #39CDCC;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: background 0.2s;
+  }
+   @media (max-width: 768px) {
+    .landing-page {
+      flex-direction: column;
+    }
+    .left-side {
+      border-right: none;
+      border-bottom: 1px solid #f0f0f0;
+      padding: 40px 30px;
+    }
+    .right-side {
+      padding: 40px 30px;
+    }
+    .illustration {
+      display: none;
+    }
+  }
