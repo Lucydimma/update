@@ -32,6 +32,13 @@
   }
 
   /* dashbar */
+/* .dashbar {
+  width: 300px;
+  background: #fff;
+  border-right: 1px solid var(--border);
+  padding: 20px 0;
+  overflow-y: auto;
+} */
   .dashbar {
     width: 240px;
     background: #fff;
@@ -64,11 +71,6 @@
     border-radius: 4px;
   }
 
-  .dashbar-section {
-    padding: 20px 0;
-    border-bottom: 1px solid #F3F4F6;
-  }
-
   .dashbar-title {
     font-size: 11px;
     color: var(--text-light);
@@ -77,7 +79,7 @@
     letter-spacing: 0.5px;
   }
 
-  .dashbar-item {
+  /* .dashbar-item {
     display: flex;
     align-items: center;
     padding: 12px 20px;
@@ -85,7 +87,7 @@
     text-decoration: none;
     opacity: 0.7;
     font-size: 13px;
-  }
+  } */
 
   .dashbar-item:hover, .dashbar-item.active {
     background: rgba(57, 205, 204, 0.06);
@@ -93,6 +95,53 @@
     opacity: 1;
     color: var(--blue);
   }
+
+.dashbar-item {
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+  color: #213f7d;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: all 0.2s;
+}
+
+
+.dashbar-section {
+  display: flex;
+  align-items: center;
+  gaps: 0.5rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  /* margin-bottom: 30px; */
+ padding: 20px 0;
+ border-bottom: 1px solid #F3F4F6;
+
+}
+
+.icon {
+  width: 1rem;
+  height: 1rem;
+  position: relative;
+}
+
+/* .customers {
+margin-block: 1.5rem;
+}
+
+.businesses{
+margin-block: 1.5rem;
+}
+
+.settings{
+margin-block: 1.5rem;
+}
+they are the same as dashbar-title because of the class*/
+
+.dashbar-title {
+  margin-block: 1.5rem;
+}
+
 
   /* .dashbar-item svg {
     width: 16px;
